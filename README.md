@@ -1,5 +1,4 @@
 # PLC-Two-Axis-Pick-and-Place-System
-# Industrial Two-Axis Pick & Place System (TIA Portal & Factory I/O)
 
 ## 📌 Project Overview
 This project demonstrates an advanced automated material handling system using a **Two-Axis Pick & Place robot** integrated with conveyor systems.
@@ -58,17 +57,6 @@ The system is designed using structured **sequential control logic**:
 
 ---
 
-## 🔌 I/O Configuration
-
-| Inputs (Sensors)        | Address     | Outputs (Actuators)        | Address     |
-|------------------------|------------|----------------------------|------------|
-| Start / Stop Buttons   | %I0.0 / 1  | Belt Conveyors (6m, 4m)    | %Q0.0 / 1  |
-| Diffuse Sensors (1–3)  | %I0.2 – 4  | Vacuum Gripper             | %Q0.5      |
-| Robot Detection Signal | %I0.5      | Robot Moving X             | %Q0.6      |
-| Axis Feedback (X/Z)    | %I0.6 / 7  | Robot Moving Z             | %Q0.7      |
-
----
-
 ## 📸 Project Preview
 
 ### 🔹 Driver Configuration
@@ -105,10 +93,3 @@ The system is designed using structured **sequential control logic**:
 5. Switch to RUN mode  
 6. Press **Start** to begin automatic operation  
 
----
-
-## 💡 Engineering Notes
-- Designed using **sequential control methodology** similar to real industrial robots  
-- Clear separation between motion phases (Pick / Move / Place / Return)  
-- Reliable operation ensured using feedback signals and timers  
-- Easily scalable for multi-station industrial automation systems  
