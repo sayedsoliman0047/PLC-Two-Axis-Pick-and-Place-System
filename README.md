@@ -72,7 +72,7 @@ The system is designed using structured **sequential control logic**:
 ## 📸 Project Preview
 
 ### 🔹 Driver Configuration
-![Driver Setup](0.jpg)
+![Driver Setup](0.png)
 
 ### 🔹 Control Logic (LAD)
 ![Logic 1](1.png)  
@@ -80,12 +80,12 @@ The system is designed using structured **sequential control logic**:
 ![Logic 3](3.png)
 
 ### 🔹 Factory I/O Scene
-![System Layout](scene.jpg)
+![System Layout](scene.png)
 
 ---
 
 ## 🎥 Demo Video
-👉 [Watch the system in action](PUT_YOUR_VIDEO_LINK_HERE)
+👉 [Watch the system in action](video.mp4)
 
 ---
 
