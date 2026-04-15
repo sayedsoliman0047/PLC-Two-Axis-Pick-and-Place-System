@@ -80,7 +80,7 @@ The system is designed using structured **sequential control logic**:
 ![Logic 3](3.png)
 
 ### 🔹 Factory I/O Scene
-![System Layout](scene.png)
+![System Layout](Scene.png)
 
 ---
 
