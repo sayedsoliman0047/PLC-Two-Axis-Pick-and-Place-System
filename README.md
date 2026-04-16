@@ -1,13 +1,13 @@
 # PLC-Two-Axis-Pick-and-Place-System
 
-## 📌 Project Overview
+##  Project Overview
 This project demonstrates an advanced automated material handling system using a **Two-Axis Pick & Place robot** integrated with conveyor systems.
 
 The system detects incoming parts, precisely positions the robotic axes, picks items using a vacuum gripper, and transfers them to a target location — all controlled using **Siemens PLC** and simulated in **Factory I/O**.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - **PLC Programming:** Siemens TIA Portal (S7-1200)  
 - **Simulation:** Factory I/O  
 - **PLC Simulation:** Siemens S7-PLCSIM  
@@ -15,7 +15,7 @@ The system detects incoming parts, precisely positions the robotic axes, picks i
 
 ---
 
-## 🤖 System Operation Sequence
+##  System Operation Sequence
 The system is designed using structured **sequential control logic**:
 
 1. **Part Detection**
@@ -39,7 +39,7 @@ The system is designed using structured **sequential control logic**:
 
 ---
 
-## 🧠 Control Logic Highlights
+##  Control Logic Highlights
 
 - **Sequential State Control**
   - Implemented using memory bits (M-tags)  
@@ -57,27 +57,27 @@ The system is designed using structured **sequential control logic**:
 
 ---
 
-## 📸 Project Preview
+##  Project Preview
 
-### 🔹 Driver Configuration
+###  Driver Configuration
 ![Driver Setup](0.png)
 
-### 🔹 Control Logic (LAD)
+###  Control Logic (LAD)
 ![Logic 1](1.png)  
 ![Logic 2](2.png)  
 ![Logic 3](3.png)
 
-### 🔹 Factory I/O Scene
+###  Factory I/O Scene
 ![System Layout](Scene.png)
 
 ---
 
-## 🎥 Demo Video
-👉 [Watch the system in action](video.mp4)
+##  Demo Video
+ [Watch the system in action](video.mp4)
 
 ---
 
-## 📂 Project Files Included
+##  Project Files Included
 - TIA Portal Project File  
 - Factory I/O Scene File  
 - PLC Logic Screenshots  
@@ -85,7 +85,7 @@ The system is designed using structured **sequential control logic**:
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 1. Open the project in **TIA Portal**  
 2. Start **S7-PLCSIM** and download the program  
 3. Open the scene in **Factory I/O**  
